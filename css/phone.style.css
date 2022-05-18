@@ -1,0 +1,48 @@
+@media (max-width: 991px) {
+    .formatlist1,
+    .formatlist2,
+    .formatlist3 {
+        width: 73%;
+        margin-top: 30px;
+    }
+    .formatlist {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 17px;
+        width: 100%;
+    }
+    .format h1,
+    .uznaem h1 {
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+        font-size: 27px;
+        line-height: 80%;
+    }
+    .formatlist h3 {
+        margin: 0;
+        padding-bottom: 8px;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 100%;
+        color: #1E4681;
+    }
+    .formatlist p {
+        font-size: 11px;
+        color: black;
+        margin: 0;
+    }
+    .uznaemlist {
+        color: black;
+        width: 100%;
+        margin-left: -25px;
+    }
+    .uznaemlist li {
+        padding-top: 9px;
+        font-size: 11px;
+        line-height: 110%;
+    }
+    .sto_uznaem {
+        margin-top: 80px;
+        width: 100%;
+    }
+}

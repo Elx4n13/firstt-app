@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.main-footer .container .cards {
+    margin-left: 8.4%;
+    margin-top: 10%;
+}
+
+.main-footer .container .cards .card {
+    min-width: 189px;
+    margin-right: 2.90%;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    width: 30%;
+    background: #FFFFFF;
+    -webkit-box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    padding-bottom: 20px;
+    margin-top: 2%;
+}
+
+.main-footer .container .cards .card .card-img {
+    width: 100%;
+}
+
+.main-footer .container .cards .card .card-img img {
+    width: 100%;
+}
+
+.main-footer .container .cards .card .card-footer {
+    padding-left: 4%;
+    margin-top: 15px;
+    font-family: 'Roboto';
+}
+
+.main-footer .container .cards .card .card-footer p:first-child {
+    line-height: 30px;
+    height: 37px;
+    margin: 0;
+    font-size: 29px;
+    font-weight: bold;
+}
+
+.main-footer .container .cards .card .card-footer p:nth-child(2) {
+    margin-top: 20px;
+    width: 90%;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-size: 25px;
+}
+
+.main-footer .container .cards .card .card-footer p:last-child {
+    margin-top: 3px;
+    width: 90%;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.main-footer .container .container2 {
+    width: 100%;
+    background-color: #EFEFEF;
+}
+
+.main-footer .container .container2 .ekaterina-container {
+    min-width: 320px;
+    padding-bottom: 10%;
+    margin-left: 7.8%;
+}
+
+.main-footer .container .container2 .ekaterina-container .ekaterina-header {
+    font-family: 'Roboto Slab', serif;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.main-footer .container .container2 .ekaterina-container .ekaterina-info {
+    padding: 30px;
+    -webkit-box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    background-color: white;
+    width: 70%;
+}
+
+.main-footer .container .container2 .ekaterina-container .ekaterina-info .ekaterina-info-header {
+    width: 90%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.main-footer .container .container2 .ekaterina-container .ekaterina-info .ekaterina-info-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.main-footer .container .container2 .ekaterina-container .ekaterina-info .ekaterina-info-footer .ekaterina-img {
+    width: 23%;
+}
+
+.main-footer .container .container2 .ekaterina-container .ekaterina-info .ekaterina-info-footer .ekaterina-img img {
+    width: 100%;
+}
+
+.main-footer .container .container2 .ekaterina-container .ekaterina-info .ekaterina-info-footer .ekaterina-info-footer-final {
+    margin-left: 5%;
+    width: 70%;
+}
+
+.main-footer .container .container2 .ekaterina-container .ekaterina-info .ekaterina-info-footer .ekaterina-info-footer-final .ekaterina-name {
+    width: 100%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10%;
+}
+
+.main-footer .container .container2 .ekaterina-container .ekaterina-info .ekaterina-info-footer .ekaterina-info-footer-final .ekaterina-name p {
+    margin-top: 0;
+}
+
+.main-footer .container .container2 .ekaterina-container .ekaterina-info .ekaterina-info-footer .ekaterina-info-footer-final .ekaterina-fb img {
+    width: 5.6%;
+}
+
+@media (max-width: 1279px) and (min-width: 992px) {
+    .main-footer .container .cards .card {
+        padding-bottom: 17px;
+    }
+    .main-footer .container .cards .card .card-footer {
+        width: 95% !important;
+        padding-left: 4%;
+    }
+    .main-footer .container .cards .card .card-footer p:first-child {
+        margin-top: 10px;
+        margin-bottom: 30px;
+        height: 18px;
+        font-size: 22px;
+        line-height: 18px;
+    }
+    .main-footer .container .cards .card .card-footer p:nth-child(2) {
+        width: 70%;
+        font-size: 20px;
+    }
+    .main-footer .container .cards .card .card-footer p:last-child {
+        margin-top: 3px;
+        width: 90%;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .main-footer .ekaterina-container .ekaterina-header {
+        font-size: 32px;
+    }
+    .main-footer .ekaterina-container .ekaterina-info {
+        padding: 23px;
+        border-radius: 17px;
+    }
+    .main-footer .ekaterina-container .ekaterina-info .ekaterina-info-header {
+        width: 90%;
+        margin: auto;
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        font-weight: normal;
+    }
+    .main-footer .ekaterina-container .ekaterina-info .ekaterina-info-footer .ekaterina-info-footer-final .ekaterina-name {
+        font-size: 17px;
+        font-weight: 700;
+    }
+}
+
+@media (max-width: 991px) {
+    .main-footer .container .cards {
+        margin-left: 6%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 90%;
+    }
+    .main-footer .container .cards .card {
+        border-radius: 11%;
+        width: 65% !important;
+        margin-bottom: 24px;
+    }
+    .main-footer .container .cards .card .card-footer {
+        padding-left: 4%;
+        margin-top: 10px;
+    }
+    .main-footer .container .cards .card .card-footer p:first-child {
+        margin-top: 8px;
+        margin-bottom: 14px !important;
+        height: 18px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .main-footer .container .cards .card .card-footer p:nth-child(2) {
+        width: 70%;
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    .main-footer .container .cards .card .card-footer p:last-child {
+        margin-top: 3px;
+        width: 90%;
+        font-size: 12px;
+    }
+    .main-footer .container .ekaterina-container {
+        margin-left: 0;
+        margin: auto !important;
+        width: 80% !important;
+    }
+    .main-footer .container .ekaterina-container .ekaterina-header {
+        margin: auto !important;
+        width: 80% !important;
+        font-size: 25px !important;
+        overflow: auto;
+    }
+    .main-footer .container .ekaterina-container .ekaterina-info {
+        margin: auto !important;
+        width: 80% !important;
+        padding: 18px;
+        border-radius: 13px;
+    }
+    .main-footer .container .ekaterina-container .ekaterina-info .ekaterina-info-header {
+        width: 90%;
+        margin: auto;
+        font-family: 'Roboto', sans-serif;
+        font-size: 10px;
+        font-weight: normal;
+    }
+    .main-footer .container .ekaterina-container .ekaterina-info .ekaterina-info-footer .ekaterina-info-footer-final .ekaterina-name {
+        margin-top: 1% !important;
+        font-size: 14px !important;
+        font-weight: 700;
+    }
+    .main-footer .container .ekaterina-container .ekaterina-info .ekaterina-info-footer .ekaterina-info-footer-final .ekaterina-fb img {
+        width: 10% !important;
+    }
+}
+
+@media (max-width: 319px) {
+    .main-footer .container .cards {
+        margin-left: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .main-footer .container .cards .card {
+        border-radius: 10%;
+        width: 65% !important;
+        margin-bottom: 15px;
+    }
+    .main-footer .container .cards .card .card-footer {
+        padding-left: 4%;
+    }
+    .main-footer .container .cards .card .card-footer p:first-child {
+        margin-top: 7px;
+        margin-bottom: 12px !important;
+        height: 18px;
+        font-size: 13px;
+    }
+    .main-footer .container .cards .card .card-footer p:nth-child(2) {
+        width: 70%;
+        font-size: 11px;
+        margin-bottom: 0;
+    }
+    .main-footer .container .cards .card .card-footer p:last-child {
+        margin-top: 3px;
+        width: 90%;
+        font-size: 11px;
+        font-weight: 400;
+    }
+}
+
+@media (max-width: 700px) {
+    .ekaterina-info-footer .ekaterina-info-footer-final .ekaterina-name {
+        margin-top: 0% !important;
+    }
+    .ekaterina-info .ekaterina-info-header {
+        font-size: 12px !important;
+        margin-top: 20px;
+    }
+    .ekaterina-name {
+        font-size: 40px !important;
+    }
+}
+
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@700&display=swap");
+@media (min-width: 992px) and (max-width: 1279px) {
+    body {
+        font-family: "Roboto", sans-serif;
+    }
+    .section-header {
+        background-color: #9dc9c8;
+        padding-left: 0;
+        padding-top: 81px;
+        padding-bottom: 73px;
+    }
+    .main h2 {
+        font-size: 32px;
+        font-family: "Roboto Slab", serif;
+    }
+    .ctoimost {
+        padding: 0;
+        margin: 0;
+        font-size: 14px;
+        padding-top: 32px;
+        font-weight: 400;
+    }
+    .main h3 {
+        margin: 0;
+        font-size: 46px;
+        font-weight: 400;
+    }
+    .words {
+        margin: 0;
+        width: 26%;
+        display: inline-block;
+        padding-top: 50px;
+        padding-right: 70px;
+    }
+    .description h4 {
+        font-size: 14px;
+    }
+    .description p {
+        padding: 0;
+        margin: 0;
+        font-size: 16px;
+    }
+    .footer {
+        background-color: #000000;
+        padding: 30px 70px;
+    }
+    .fbeginning {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .footer p {
+        color: white;
+    }
+    .footer .icons {
+        padding-top: 30px;
+    }
+    .left {
+        width: 30%;
+    }
+    .left .icons img {
+        padding-right: 5%;
+        width: 15%;
+    }
+    .right span {
+        display: inline-block;
+        padding-left: 17px;
+    }
+    .mail {
+        padding-top: 8px;
+    }
+    .right img {
+        width: 10%;
+    }
+}

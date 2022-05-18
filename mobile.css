@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@700&display=swap");
+@media (max-width: 991px) {
+    body {
+        font-family: "Roboto", sans-serif;
+    }
+    .section-header {
+        background-color: #9dc9c8;
+        padding-left: 0;
+        padding-top: 48px;
+        padding-bottom: 65px;
+    }
+    .main h2 {
+        font-size: 26px;
+        font-family: "Roboto Slab", serif;
+        width: 80%;
+    }
+    .ctoimost {
+        font-size: 12px;
+        padding-top: 32px;
+        font-weight: 400;
+    }
+    .main h3 {
+        font-size: 37px;
+        font-weight: 400;
+    }
+    .words {
+        width: 23%;
+        display: inline-block;
+        padding-top: 40px;
+        padding-right: 30px;
+    }
+    .description {
+        display: flex;
+    }
+    .description h4 {
+        font-size: 12px;
+    }
+    .description p {
+        font-size: 10px;
+    }
+    .footer {
+        background-color: #000000;
+        padding: 30px 50px;
+        /* display: flex;
+  flex-direction: column; */
+    }
+    .fbeginning {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer p {
+        color: white;
+    }
+    .footer .icons {
+        padding-top: 20px;
+    }
+    .left {
+        width: 100%;
+    }
+    .sinxronizasiya img {
+        width: 14%;
+    }
+    .left .icons img {
+        padding-right: 2%;
+        width: 5%;
+        min-width: 25px;
+    }
+    .right {
+        width: 100%;
+        padding-top: 5%;
+    }
+    .right img {
+        width: 3%;
+        min-width: 19px;
+    }
+    .right .phone,
+    .mail {
+        width: 100%;
+    }
+    .last-item {
+        font-size: 10px;
+        padding-top: 5%;
+    }
+    .description .words {
+        width: 200px;
+    }
+}
